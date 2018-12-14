@@ -44,14 +44,16 @@ $( document ).ready(function(){
         
     //adds the wins to the userTotal
   function winner(){
+    alert("You Won!");
     wins++; 
     $('#numberWins').text(wins);
     reset();
   }
-
+  alert("Winner!")
 
   //adds the losses to the userTotal
   function loser(){
+    alert("Try Again");
     losses++;
     $('#numberLosses').text(losses);
     reset()
